@@ -1,5 +1,10 @@
-import Image from "next/image";
-
-export default function Home() {
-  return <div>test</div>;
+import Slider from '@/components/Slider'
+const Homepage = () => {
+	return (
+		<div className=''>
+			<Slider />
+		</div>
+	)
 }
+
+export default Homepage
